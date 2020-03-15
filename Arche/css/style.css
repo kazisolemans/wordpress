@@ -1,0 +1,1190 @@
+/*===========================
+------ Common CSS Start-------
+=============================*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none!important;
+}
+
+ol,li{
+    list-style: none;
+}
+
+p,h1,h2.h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+/*===========================
+------ Common CSS End -------
+=============================*/
+
+/*===========================
+------ Header CSS Start-------
+=============================*/
+
+#header{
+    background: #d9b257;
+    padding: 20px 0;
+}
+
+#header .header_part{
+    color: #fff;
+}
+
+#header .header_part .welcome p{
+    font-size: 16px!important;
+}
+
+#header .header_part i{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+#header .header_part p{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+}
+
+#menu nav .nav-item a{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #d9b257!important;
+    text-transform: uppercase;
+}
+
+#menu nav form{
+    position: relative;
+}
+
+#menu nav form input{
+    border: 1px solid transparent;
+    color: #cccccc;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    width: 100px;
+}
+
+#menu nav form button {
+	border: 1px solid transparent;
+	position: absolute;
+	top: 1px;
+	right: 27px;
+    color: #cccccc;
+    font-size: 14px;
+    background: transparent;
+}
+
+/*===========================
+------ Header CSS End -------
+=============================*/
+
+/*===========================
+------ Banner CSS Start-------
+=============================*/
+
+#banner .banner1{
+    background: url(../images/banner1.png) no-repeat center;
+    background-size: cover;
+    height: 700px;
+    padding: 100px 0;
+    position: relative;
+}
+
+#banner .banner1 .bg_ovrly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#banner .banner1 .bg_ovrly p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    color: #d9b257;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+#banner .banner1 .bg_ovrly h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 56px;
+    color: #fff;
+    font-weight: 900;
+    width: 540px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#banner .banner1 .bg_ovrly a{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 99;
+}
+
+#banner .banner1 .bg_ovrly a::after {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: red;
+	z-index: -1;
+	transition: .6s;
+}
+
+#banner .banner1 .bg_ovrly a:hover:after{
+    height: 100%;
+}
+
+#banner .banner1 .bg_ovrly a i{
+    position: relative;
+    margin-left: 10px;
+}
+
+#banner .banner1 .bg_ovrly a i::after {
+	position: absolute;
+	content: '';
+	bottom: -14px;
+	left: -7px;
+	width: 2px;
+	height: 0;
+	background: #000;
+	transform: rotate(13deg);
+	transition: .6s;
+}
+
+#banner .banner1 .bg_ovrly a:hover i::after{
+    height: 47px;
+}
+
+#banner .banner2{
+    background: url(../images/banner2.png) no-repeat center;
+    background-size: cover;
+    height: 700px;
+    padding: 100px 0;
+    position: relative;
+}
+
+#banner .banner2 .bg_ovrly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#banner .banner2 .bg_ovrly p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    color: #d9b257;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+#banner .banner2 .bg_ovrly h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 56px;
+    color: #fff;
+    font-weight: 900;
+    width: 540px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#banner .banner2 .bg_ovrly a{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 99;
+}
+
+#banner .banner2 .bg_ovrly a::after {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: red;
+	z-index: -1;
+	transition: .6s;
+}
+
+#banner .banner2 .bg_ovrly a:hover:after{
+    height: 100%;
+}
+
+#banner .banner2 .bg_ovrly a i{
+    position: relative;
+    margin-left: 10px;
+}
+
+#banner .banner2 .bg_ovrly a i::after {
+	position: absolute;
+	content: '';
+	bottom: -14px;
+	left: -7px;
+	width: 2px;
+	height: 0;
+	background: #000;
+	transform: rotate(13deg);
+	transition: .6s;
+}
+
+#banner .banner2 .bg_ovrly a:hover i::after{
+    height: 47px;
+}
+
+
+#banner .banner_chuto {
+	position: relative;
+	top: -300px;
+	z-index: 999999;
+    transition: all linear .3s;
+}
+
+#banner .banner_chuto::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    transition: all linear .3s;
+}
+
+#banner .banner_chuto:hover:after{
+    background: #d9b257;
+}
+
+#banner .banner_chuto .banner_chuto1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	z-index: 999;
+	width: 100%;
+}
+
+#banner .banner_chuto .banner_chuto1 img{
+    margin-top: 50px;
+    transition: all linear .6s;
+}
+
+#banner .banner_chuto .banner_chuto1 h3{
+    margin-top: 90px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    color: #fff;
+}
+
+#banner .banner_chuto .banner_chuto1 p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+#banner .banner_chuto .banner_chuto1 p.newyork{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+#banner .banner_chuto:hover .banner_chuto1 p{
+    color: #d9b257;
+}
+
+#banner .banner_chuto:hover .banner_chuto1 img{
+    transform: rotateY(180deg);
+}
+
+
+/*===========================
+------ Banner CSS End -------
+=============================*/
+
+/*===========================
+------ About CSS Start-------
+=============================*/
+
+#about .about_part .about_image img{
+    width: 100%;
+}
+
+#about .about_part .about_text{
+    padding: 50px 20px;
+}
+
+#about .about_part .about_text p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #d9b257;
+    margin-top: 50px;
+}
+
+#about .about_part .about_text h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #999999;
+    margin-top: 30px;
+}
+
+#about .about_part .about_text p.details{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #444444!important;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    line-height: 2;
+}
+
+#about .about_part .about_text a{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #222222;
+    position: relative;
+    padding: 10px 20px;
+    z-index: 99;
+}
+
+#about .about_part .about_text a::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background: #d9b257;
+    z-index: -1;
+    transition: .6s;
+}
+
+#about .about_part .about_text a:hover:after{
+    height: 100%;
+}
+
+#about .about_part .about_text i{
+    font-size: 16px;
+    color: #000;
+    margin-left: 20px;
+    position: relative;
+}
+
+#about .about_part .about_counter{
+    padding: 100px 0;
+}
+
+#about .about_part .about_text i::after {
+	position: absolute;
+	content: '';
+	bottom: -13px;
+	left: -10px;
+	height: 0;
+	width: 2px;
+	background: #000;
+	transform: rotate(12deg);
+    transition: .6s;
+}
+
+#about .about_part .about_text a:hover i::after{
+    height: 44px;
+}
+
+#about .about_part .about_counter .counter1{
+    margin-bottom: 70px;
+}
+
+#about .about_part .about_counter h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #d9b257;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#about .about_part .about_counter span{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #999999;
+}
+
+#about .about_part .about_counter span.percent{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #d9b257;
+}
+
+#about .about_part .about_counter p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #999999;
+    position: relative;
+}
+
+#about .about_part .about_counter p::after {
+	position: absolute;
+	content: '';
+	bottom: -50px;
+	left: 58%;
+	height: 2px;
+	width: 30%;
+	background: #d9b257;
+}
+
+/*===========================
+------ About CSS End -------
+=============================*/
+
+/*===========================
+------ Service CSS Start-------
+=============================*/
+
+#service .service_part{
+    background: url(../images/service_bg.png) no-repeat center;
+    background-size: cover;
+}
+
+#service .service_part .serv_ovrly{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+     padding: 100px 0;
+}
+
+#service .service_part .serv_ovrly .service_title p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #d9b257;
+    margin-top: 50px;
+}
+
+#service .service_part .serv_ovrly .service_title h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #fff;
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#service .service_part .serv_ovrly .service_image .image1{
+    position: relative;
+    margin-right: 50px;
+}
+
+
+
+#service .service_part .serv_ovrly .service_image .image1 .img_txt {
+	position: absolute;
+	bottom: -30px;
+	right: -30px;
+	background: #fff;
+	text-align: right;
+	width: 300px;
+    padding: 20px 20px;
+}
+
+#service .service_part .serv_ovrly .service_image .image1 .img_txt p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #d9b257;
+}
+
+#service .service_part .serv_ovrly .service_image .image1 .img_txt p.details{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #999999;
+    margin-bottom: 10px;
+}
+
+#service .service_part .serv_ovrly .service_image .image1 .img_txt a{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #222222;
+    position: relative;
+    z-index: 99;
+    padding: 5px 10px;
+}
+
+#service .service_part .serv_ovrly .service_image .image1 .img_txt a::after {
+	position: absolute;
+	content: '';
+	bottom: -4px;
+	left: 0;
+	height: 3px;
+	width: 100%;
+	background: #d9b257;
+	transition: .6s;
+	z-index: -1;
+}
+
+#service .service_part .serv_ovrly .service_image .image1 .img_txt a:hover::after {
+	height: 35px;
+}
+
+/*===========================
+------ Service CSS End -------
+=============================*/
+
+/*===========================
+------Projects CSS Start-------
+=============================*/
+#projects .project_part{
+}
+
+#projects .project_part .project_title p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #d9b257;
+    margin-top: 50px;
+}
+
+#projects .project_part .project_title h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #999999;
+    width: 570px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#projects .project_part .project_name .project1{
+    margin-bottom: 80px;
+}
+
+#projects .project_part .project_name .project1 ul li .image{
+    position: relative;
+}
+
+#projects .project_part .project_name .project1 ul li .image .ovrly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+#projects .project_part .project_name .project1:hover ul li .image .ovrly{
+    opacity: .8;
+}
+
+#projects .project_part .project_name .project1 ul li .image .ovrly .image_btn{
+    position: relative;
+}
+
+#projects .project_part .project_name .project1 ul li .image .ovrly .image_btn a {
+	position: absolute;
+	bottom: -195px;
+	left: 80px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+#projects .project_part .project_name .project1 ul li img{
+    width: 100%;
+}
+
+#projects .project_part .project_name .project1 ul {
+    text-align: left
+}
+
+#projects .project_part .project_name .project1 ul li.title{
+    padding: 10px 0;
+}
+
+#projects .project_part .project_name .project1 ul li p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #999999;
+    transition: all linear .3s;
+}
+
+#projects .project_part .project_name .project1 ul li p.details{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #999999;
+    transition: all linear .3s;
+}
+
+#projects .project_part .project_name .project1:hover ul li p{
+    color: #d9b257;
+}
+
+#projects .project_part a.project_btn{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    transition: all linear .3s;
+    background: #d9b257;
+    padding: 13px 20px;
+    margin: 0 auto;
+}
+
+/*===========================
+------Pprojects CSS End -------
+=============================*/
+
+/*===========================
+------ Testimonial CSS Start-------
+=============================*/
+
+
+#testimonial .testimonial_part{
+    height: 700px;
+    padding: 50px 0;
+    position: relative;
+}
+
+#testimonial .testimonial_part .testimonial_title p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #d9b257;
+    margin-top: 50px;
+}
+
+#testimonial .testimonial_part .testimonial_title h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #000;
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#testimonial .testimonial_part .testimonial_image .image1{
+    position: relative;
+    margin-right: 50px;
+    background: #f5f5f5;
+    padding: 10px 20px;
+    padding-top: 30px;
+}
+
+#testimonial .testimonial_part .testimonial_image .image1 p.test_txt{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+#testimonial .sign {
+	margin-top: 35px;
+}
+
+#testimonial .testimonial_part .testimonial_image .image1 .img_txt {
+	position: absolute;
+	bottom: -15px;
+	right: -30px;
+	background: #fff;
+	text-align: left;
+    width: 230px;
+	transform: scale(0);
+    padding: 20px 20px;
+    background: #d9b257;
+    transition: .4s;
+}
+
+#testimonial .testimonial_part .testimonial_image .image1:hover .img_txt{
+    transform: scale(1);
+}
+
+#testimonial .testimonial_part .testimonial_image .image1 .img_txt p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+#testimonial .testimonial_part .testimonial_image .image1 .img_txt p.details{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+}
+
+#testimonial .testimonial_part .testimonial_image .image1 .img_txt i{
+    font-size: 16px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+/*===========================
+------ Testimonial CSS End -------
+=============================*/
+
+/*===========================
+------ Experts CSS Start-------
+=============================*/
+#expert .expert_part{
+    background: url(../images/expert-bg.png) no-repeat center;
+    background-size: cover;
+}
+
+#expert .expert_part .ovrlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+/*
+
+#expert .expert_part .ovrly .container{
+    padding: 50px 0;
+}
+*/
+
+#expert .expert_part .expert_title p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #d9b257;
+    margin-top: 50px;
+}
+
+#expert .expert_part .expert_title h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #999999;
+    width: 570px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#expert .expert_part .expert_name{
+    padding-bottom: 100px;
+}
+
+#expert .expert_part .expert_name .expert1{
+    margin-bottom: 80px;
+}
+
+#expert .expert_part .expert_name .expert1 ul li .image{
+    position: relative;
+}
+
+#expert .expert_part .expert_name .expert1 ul li .image .ovrly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+#expert .expert_part .expert_name .expert1:hover ul li .image .ovrly{
+    opacity: .8;
+}
+
+#expert .expert_part .expert_name .expert1 ul li .image .ovrly .image_btn{
+    position: relative;
+}
+
+#expert .expert_part .expert_name .expert1 ul li .image .ovrly .image_btn a {
+	position: absolute;
+	bottom: -195px;
+	left: 80px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+#expert .expert_part .expert_name .expert1 ul li img{
+    width: 100%;
+}
+
+#expert .expert_part .expert_name .expert1 ul {
+    text-align: left
+}
+
+#expert .expert_part .expert_name .expert1 ul li.title{
+    padding: 10px 0;
+}
+
+#expert .expert_part .expert_name .expert1 ul li p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+    transition: all linear .3s;
+}
+
+#expert .expert_part .expert_name .expert1 ul li p.details{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+#expert .expert_part .expert_name .expert1:hover ul li p{
+    color: #d9b257;
+}
+
+#expert .expert_part a.expert_btn{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    transition: all linear .3s;
+    position: relative;
+    padding: 13px 20px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    z-index: 99;
+}
+
+#expert .expert_part a.expert_btn::after{
+    position: absolute;
+    content: '';
+    height: 10%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #d9b257;
+    z-index: -1;
+    transition: .4s;
+}
+
+#expert .expert_part a.expert_btn:hover:after{
+    height: 100%;
+}
+
+/*===========================
+------ Experts CSS End -------
+=============================*/
+
+/*===========================
+------ Latest blog CSS Start-------
+=============================*/
+
+#blog .blog_part{
+    padding-bottom: 100px;
+}
+
+#blog .blog_part .blog_ovrly .blog_title p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #d9b257;
+    margin-top: 50px;
+}
+
+#blog .blog_part .blog_ovrly .blog_title h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #999999;
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#blog .blog_part .blog_ovrly .blog_image .blog_image1{
+    position: relative;
+}
+
+#blog .blog_part .blog_ovrly .blog_image .blog_image1 .img_txt {
+	position: absolute;
+	bottom: -30px;
+	right: 0;
+	background: #fff;
+	text-align: right;
+	width: 300px;
+    padding: 20px 20px;
+    border: 1px solid #d9b257;
+}
+
+#blog .blog_part .blog_ovrly .blog_image .blog_image1 .img_txt p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #999999;
+}
+
+#blog .blog_part .blog_ovrly .blog_image .blog_image1 .img_txt p i{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#blog .blog_part .blog_image .blog_image1 .details{
+    font-family: 'Lato', sans-serif!important;
+    font-weight: 300!important;
+    font-size: 24px!important;
+    color: #222222!important;
+}
+
+#blog .blog_part .blog_image .blog_image1:hover.details{
+    color: #d9b257;
+}
+
+#blog .blog_part .blog_ovrly .img_txt a{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #222222;
+    position: relative;
+    transition: .4s;
+}
+
+#blog .blog_part .blog_ovrly .img_txt a::after{
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    height: 2px;
+    width: 50%;
+    background: #d9b257;
+    transition: .4s;
+}
+
+#blog .blog_part .blog_ovrly .img_txt a:hover:after{
+    width: 100%;
+}
+
+#blog .blog_part .blog_ovrly .img_txt a:hover{
+    color:  #d9b257;
+}
+
+#blog .blog_part .blog_ovrly .blog_image{
+    margin-bottom: 100px;  
+    padding: 0 100px;
+}
+
+#blog .blog_btn a{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    padding: 13px 20px;
+    background: #d9b257;
+    transition: .4s;
+}
+
+#blog .blog_btn a:hover{
+    color: #000;
+}
+
+/*===========================
+------ Latest blog CSS End -------
+=============================*/
+
+/*===========================
+------ Footer CSS Start-------
+=============================*/
+
+#footer{
+    
+}
+
+#footer .footer_part{
+    background: url(../images/footer.png) no-repeat center;
+    background-size: cover;
+}
+
+#footer .footer_part .foter_ovrly{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#footer .footer_part .foter_ovrly .footer_side{
+    padding: 100px 0;
+}
+
+#footer .footer_part .footer_about img{
+    margin-bottom: 50px;
+}
+
+#footer .footer_part .footer_about p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #777777;
+    font-size: 14px;
+}
+
+#footer .footer_part .footer_contact{
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+#footer .footer_part .footer_contact h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+#footer .footer_part .footer_contact p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+}
+
+#footer .footer_part .footer_contact ul{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+#footer .footer_part .footer_contact ul li i {
+	font-size: 20px;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: -32px;
+	transform: translateY(-50%);
+}
+
+#footer .footer_part .footer_newsletter {
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 200px;
+	text-align: left;
+}
+
+#footer .footer_part .footer_newsletter h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+#footer .footer_part .footer_newsletter form{
+    margin-bottom: 50px;
+}
+
+#footer .footer_part .footer_newsletter form input{
+    border: 1px solid #d9b257;
+    border-radius: 5px;
+    background: transparent;
+    padding: 13px 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    margin-top: -2px;
+}
+
+#footer .footer_part .footer_newsletter form input::placeholder{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+}
+
+#footer .footer_part .footer_newsletter form button{
+    padding: 10px 20px;
+    border: 1px solid #d9b257;
+    background: #d9b257;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    margin-left: -5px;
+}
+
+#footer .footer_part .footer_newsletter ul li{
+    display: inline-block;
+}
+
+#footer .footer_part .footer_newsletter i{
+    font-size: 20px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+#footer .footer_part .footer_newsletter i:hover{
+    background: #fff;
+    color: rgba(0, 0, 255, 0.67);
+}
+
+#footer .footer_part .footer_newsletter p.massage{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    width: 450px;
+    margin-top: 40px;
+}
+
+/*===========================
+------ Footer CSS End -------
+=============================*/
